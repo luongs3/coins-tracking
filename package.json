@@ -1,0 +1,26 @@
+{
+  "name": "coins-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "coingecko-api": "^1.0.10",
+    "crawler": "^1.2.2",
+    "cron": "^1.8.2",
+    "express": "4.17.1",
+    "mysql2": "^2.2.5",
+    "node-cron": "^2.0.3",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.3.5",
+    "http-errors": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
