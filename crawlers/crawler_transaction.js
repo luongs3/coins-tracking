@@ -103,8 +103,8 @@ async function crawler_transaction_detail(transaction) {
         from_name,
     };
 
-    const transactionModel = {id: 1};
-    // const transactionModel = await saveTransaction(transaction);
+    // const transactionModel = {id: 1};
+    const transactionModel = await saveTransaction(transaction);
     if (transactionModel == null) {
         return null
     }

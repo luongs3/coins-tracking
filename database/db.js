@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 
 // Option 1: Passing a connection URI
 const sequelize = new Sequelize('mysql://root:df@localhost:3306/coins_tracking', {
-    logging: false
+    logging: true
 }); // Example for postgres
 
 try {
